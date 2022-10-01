@@ -9,7 +9,11 @@ This is a countdown developed using html, css and javascript which takes the sta
 
 
 
-https://user-images.githubusercontent.com/109405477/193386460-a2aac422-086a-417c-a595-81e93f00832b.mp4
+
+https://user-images.githubusercontent.com/109405477/193386476-25b6777a-d4d7-48d2-8fc9-4cefba76f7f0.mp4
+
+
+
 
 
 
