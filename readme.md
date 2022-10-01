@@ -6,6 +6,18 @@ This is a countdown developed using html, css and javascript which takes the sta
 
 ## Video
 
+
+
+
+
+https://user-images.githubusercontent.com/109405477/193386476-25b6777a-d4d7-48d2-8fc9-4cefba76f7f0.mp4
+
+
+
+
+
+
+
 **Check it out at : https://numbercountdown.netlify.app/**
 
 ## 🚀 About Me
