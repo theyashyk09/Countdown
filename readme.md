@@ -7,7 +7,11 @@ This is a countdown developed using html, css and javascript which takes the sta
 ## Video
 
 
-https://user-images.githubusercontent.com/109405477/193334948-46d0f68c-1ad1-4a72-883b-a5ebe192581e.mp4
+
+
+https://user-images.githubusercontent.com/109405477/193386460-a2aac422-086a-417c-a595-81e93f00832b.mp4
+
+
 
 
 **Check it out at : https://numbercountdown.netlify.app/**
