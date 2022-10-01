@@ -1,45 +1,32 @@
-let count = 0;
-
 let text = document.getElementById("number");
-
-let val = document.getElementById("countDown");
+let result = document.getElementById("countDown");
 
 let button = document.getElementById("btn");
-
-let pause = document.getElementById("pause");
 let reset = document.getElementById("reset");
 
+let count = 0;
+
 button.addEventListener("click", () => {
-  let inp = text.value;
-  count = inp;
-
-  val.style.display = "block";
-  val.textContent = count;
+  let realVal = text.value;
+  count = realVal;
+  result.textContent = count;
+  result.style.display = "block";
+  text.style.display = "none";
+  reset.style.display = "block";
   button.style.display = "none";
-
+  reset.addEventListener("click", () => {
+    window.location.reload();
+  });
   setInterval(() => {
     if (count > 0) {
       count--;
-      val.textContent = count;
-      reset.style.display = "block";
-      text.value = "";
-
-      reset.addEventListener("click", () => {
-        window.location.reload();
-      });
+      result.textContent = count;
 
       if (count == 0) {
-        val.textContent = "TIME UP";
-        val.style.fontSize = "35px";
+        result.textContent = "Time up";
       }
     } else if (count < 0) {
-      val.textContent = "Enter Valid Number";
-      text.value = "";
-      val.style.fontSize = "40px";
-      reset.style.display = "block";
-      reset.addEventListener("click", () => {
-        window.location.reload();
-      });
+      result.textContent = "Enter Valid Number";
     }
   }, 1000);
 });
